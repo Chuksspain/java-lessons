@@ -1,4 +1,4 @@
-const password = prompt("please enter a new password");
+var password = prompt("please enter a new password");
 
 if (password.length >= 6) {
     console.log("LONG ENOUGH PASSWORD")
